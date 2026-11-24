@@ -16,7 +16,7 @@ process.umask(0o022);
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "I'm out of office till Monday, I'm at the lake and the fish have seen my inbox and agreed to keep quiet, so try me again next week.";
+  "I'm out of office till Monday, I'm at the lake and the fish here have read my inbox and promised to keep quiet, so try me again next week.";
 
 const chars = [...LINE].length;
 if (chars < 1 || chars > 140) {
